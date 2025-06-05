@@ -10,16 +10,17 @@ const LoginRegister = () => {
         <form action="">
 
           <h1>Login</h1>
+          <br/>
 
           <div className="input-box">
             <input type="text" placeholder="username" required /> 
-            <FaUser className="usericon"/>
+            <FaUser className="icon"/>
           </div>
           <br/>
 
           <div className="input-box">
             <input type="password" placeholder="password" requied />
-            <RiLockPasswordFill className="lockicon"/>  
+            <RiLockPasswordFill className="icon"/>  
           </div>
           <br/>
 
@@ -31,8 +32,9 @@ const LoginRegister = () => {
           <br/>
 
           <button type="submit" className="button1">Login</button>
+          <br/>
 
-          <div classname="registration-link">
+          <div className="registration-link">
             <p>Don't have an account? <a href="#">Register</a></p>
           </div>
 
